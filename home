@@ -1,1 +1,12 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <title>RadioSpain</title>
+  </head>
+  <body>
+    <h1>Los 40 Classic</h1>
+    <audio controls>
+      <source src="http://stream.radiocastellon.com/40cl"
+    </audio>
+  </body>
+</html>
