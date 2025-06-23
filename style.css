@@ -1,10 +1,14 @@
-h1 { 
+h1{ 
    color: #ffca1b;
    background: lightcoral;
-   }
+}
 
-*  {
+*{
    background: aliceblue;
    font: roboto;
-   }
+}
 
+a:hover{
+   color: #67bb43;
+   background:#c6c6c6;
+}
