@@ -2,3 +2,9 @@ h1 {
    color: #ffca1b;
    background: lightcoral;
    }
+
+   *  {
+   background-color: aliceblue;
+   font: roboto;
+   }
+
