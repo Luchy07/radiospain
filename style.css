@@ -1,14 +1,15 @@
 h1{ 
    color: #ffca1b;
    background: lightcoral;
+   font-family: Verdana;
 }
 
 body{
    background: aliceblue;
-   font: Roboto;
+   font-family: sans-serif;
 }
 
 a:hover{
-   color: #67bb43;
+   color: #39bd00;
    background:#c6c6c6;
 }
