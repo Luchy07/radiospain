@@ -3,9 +3,9 @@ h1{
    background: lightcoral;
 }
 
-*{
+body{
    background: aliceblue;
-   font: roboto;
+   font: Roboto;
 }
 
 a:hover{
