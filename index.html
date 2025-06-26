@@ -7,14 +7,16 @@
   </head>
   <body>
     <h1>RadioSpain!</h1>
-    <p><strong>Lista de emisoras</strong></p>
-    <ul>
-      <li><a href="#los40">Los 40 Classic</a></li>
-      <li><a href="#ondacero">Onda Cero</a></li>
-      <li><a href="#kissfm">Kiss FM</a></li>
-      <li><a href="#antena3">Antena 3</a></li>
-      <li><a href="#cadena100">Cadena 100</a></li>
-    </ul>
+    <div id="listaem">
+      <p><strong>Lista de emisoras</strong></p>
+      <ul>
+        <li><a href="#los40">Los 40 Classic</a></li>
+        <li><a href="#ondacero">Onda Cero</a></li>
+        <li><a href="#kissfm">Kiss FM</a></li>
+        <li><a href="#antena3">Antena 3</a></li>
+        <li><a href="#cadena100">Cadena 100</a></li>
+      </ul>
+    </div>
     <p><strong><br>-------------------<br></strong></p>
     <div>
       <h2 id="los40">Los 40 Classic</h2>
@@ -46,5 +48,25 @@
         <source src="https://cadena100-cope-rrcast.flumotion.com/cope/cadena100-low.mp3">
       </audio>
     </div>
+    <table>
+      <thead>
+        <tr>
+          <td><strong>Emisoras</strong></td>
+          <td><strong>Logo</strong></td>
+          <td><strong>Audio</strong></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><h2 id="los40">Los 40 Classic</h2></td>
+          <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsH65cmNFAt6bXbL4KHwreByDJwmx-ODRxow&s" width="60" alt="LOS40"></td>
+          <td>
+            <audio controls>
+              <source src="http://stream.radiocastellon.com/40cl">
+            </audio>
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>

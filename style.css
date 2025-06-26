@@ -6,10 +6,43 @@ h1{
 
 body{
    background: aliceblue;
-   font-family: sans-serif;
+   font-family: sans-serif, serif;
 }
 
 a:hover{
    color: #39bd00;
-   background:#c6c6c6;
+   background:#000000;
+   font-style: italic;
+   font-size: large;
+}
+
+#listaem{
+   background: #beffa2;
+   margin-right: 400px;
+   padding-top: 1px;
+   padding-bottom: 1px;
+   padding-left: 10px;
+   padding-right: 10px;
+   border: 10px;
+   border-color: #000000;
+   position: static;
+}
+
+table, th, td{
+   border:#000000 100px;
+   text-align: center;
+}
+
+th, td{
+   background-color: #beffa2;
+   border: 5px;
+}
+
+thead{
+   background-color: aqua;
+   font-size: 30px;
+}
+
+tbody{
+   font-size: 12px;
 }
